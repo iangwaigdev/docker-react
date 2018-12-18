@@ -17,5 +17,5 @@ deploy:
   on:
     braanch: master
   access_key_id: $AWS_ACCESS_KEY
-  secret:
+  secret_access_key:
     secure: '$AWS_SECRET_KEY'
